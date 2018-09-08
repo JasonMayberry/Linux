@@ -5,7 +5,7 @@ Download it here: https://sourceforge.net/projects/jp2a/
 
 ![alt text](https://raw.githubusercontent.com/JasonMayberry/Linux/master/images/LinuxScreenShot.jpg)
 
-JP2A logo
+![alt text](https://raw.githubusercontent.com/JasonMayberry/Linux-jp2a/master/images/jp2a-top.png)
 # About
 jp2a is a small utility that converts JPG images to ASCII. It's written in C and released under the GPL.
 # Download and source
@@ -15,6 +15,7 @@ You can view an online jp2a gallery and try for yourself over at asciiconvert.co
 Oswald, the lucky rabbit (side view)
 Oswald, the lucky rabbit (front view)
 Google-logo
+![alt text](https://raw.githubusercontent.com/JasonMayberry/Linux-jp2a/master/images/thumbs.png)
 Bender
 Here are some color HTML-images:
 Bender (ASCII, HTML color)
@@ -28,22 +29,22 @@ make test    # optional
 make install
 If you have jpeglib installed in non-standard directory, say in /opt/local/include/jpeglib.h and /opt/local/lib/libjpeg.a then you can do
 ./configure --with-jpeg-prefix=/opt/local
-# If you need to build jpeglib yourself
+## If you need to build jpeglib yourself
 Download the sources from IJG.org and build them like for instance this:
 ./configure --prefix=/usr
 make
 make install-lib   # simply make install is not good enough for jp2a
-# Mac OS X
+## Mac OS X
 jp2a is now part of DarwinPorts, so if you do a
 sudo port install jp2a
 then everything should be installed.
-# FreeBSD
+## FreeBSD
 You can use the Freshports:
 pkg_add -r jp2a
-# Debian
+## Debian
 You can use the Debian package:
 apt-get install jp2a
-# Gentoo
+## Gentoo
 You can use the Gentoo package:
 emerge jp2a
 # Reading other graphics formats
